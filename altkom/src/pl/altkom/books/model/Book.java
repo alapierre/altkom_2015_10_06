@@ -7,6 +7,7 @@ public class Book {
 	private int pages;
 	private Publication publication;
 	private BookType bookType;
+	private Price price;
 	
 	public BookType getBookType() {
 		return bookType;
@@ -57,7 +58,15 @@ public class Book {
 	public void setPages(int pages) {
 		this.pages = pages;
 	}
+	public Price getPrice() {
+		return price;
+	}
+	
+	public void setPrice(Price price) {
+		this.price = price;
+	}
 
+	
 	
 	
 }
